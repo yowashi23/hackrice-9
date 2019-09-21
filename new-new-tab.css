@@ -1,0 +1,165 @@
+body,html{
+    height: 100%;
+    margin: 0;
+    min-height: 670px;
+    min-width: 675px;
+    overscroll-behavior: none; /*Likely only works in Chrome*/
+}
+#bg{
+    /* background-image: url('Images/misty-halloween.jpg'); */
+    height: 100%;
+    width: 100%;
+    background-position: center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+}
+.center-text-white{
+    text-align: center;
+    color: #ffffff;
+}
+#time{
+    height: 85px;
+    padding-top: 0vh; 
+    font-size: 80px; 
+    /* font-family: DINAlternate-Bold; */
+    font-family: Avenir-Medium;
+
+    /* THIS IS WHAT YOU DO TO PUT IT ON TOP OF A GRAY BACKGROUND */
+    /* width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(128,128,128, 0.88); */
+}
+#daytime{
+    font-size: 60px;
+    /* font-family: Nunito-Semi; */
+    font-family: Avenir-Medium;
+}
+#prompt{
+    font-size: 24px;
+    /* font-family: Nunito-Light; */
+    font-family: Avenir-Book;
+}
+#container{
+    width: 710px;
+    height: 426px;
+    /* height: 378px; */
+    padding-top: 20px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: row-reverse;
+}
+#all-labels{
+    width: 200px;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.88);
+    z-index: 0;
+}
+#all-labels div:hover {
+    background-color:rgb(208,208,208);
+}
+.side-buttons{
+    height: 16.6667%;
+    cursor: pointer;
+    position: relative;
+}
+
+.label-text{
+    font-family: Nunito-Bold;
+    /* font-family: Avenir-Black; */
+    font-style: italic;
+
+    font-size: 24px;
+    height: 0px;
+    color: #4A4A4A;
+    letter-spacing: 4px;
+    position: absolute;
+    right: 15%;
+    line-height: 71px;
+    z-index: 2; 
+}
+.colored-strip{
+    height: 30%;
+    width: 92.5%;
+    z-index: 1;
+    margin-top: auto;
+    position: absolute; 
+    /* bottom is 22 and height 28 when .label-text's font is Nunito; 
+    22 when it's Avenir-Black */
+    bottom: 19%;
+}
+#information1{
+    width: 510px;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+#information2{
+    padding-top: 10px;
+    padding-left: 30px;
+    text-align: left;
+    color: #4A4A4A;
+}
+#servery-title{
+    letter-spacing: 3.5px;
+    font-size: 24px;
+    font-family: Nunito-bold;
+    /* font-family: Avenir-Medium; */
+    font-style: italic;
+
+}
+#servery-message{
+    /* font-family: Nunito-Light; */
+    font-family: Avenir-Book;
+    /* margin-top: 13px; */
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+#list-of-foods{
+    font-size: 18px;
+    /* font-family: Nunito; */
+    font-family: Avenir-Roman;
+    letter-spacing: 0px;
+}
+#credits,a{
+    margin-top: 5px;
+    font-size: 9px;
+    color: #FFFFFF;
+    text-align: center;
+}
+a{
+    text-decoration: underline;
+}
+p{
+    display: block;
+    margin-block-start: 0.75em;
+    margin-block-end: 0.75em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+@font-face {
+    font-family: DINAlternate-Bold; 
+    src: url('Fonts/DINAlternate-Bold.ttf'); 
+}
+@font-face{
+    font-family: Nunito-Bold;
+    src:url('Fonts/Nunito/Nunito-Bold.ttf')
+}
+@font-face{
+    font-family: Avenir-Roman;
+    src: url('Fonts/Avenir/Avenir-Roman.otf');
+}
+@font-face{
+    font-family: Avenir-Book;
+    src: url('Fonts/Avenir/Avenir-Book.otf');
+}
+@font-face{
+    font-family: Avenir-Black;
+    src: url('Fonts/Avenir/Avenir-Black.otf');
+}
+@font-face{
+    font-family: Avenir-Medium;
+    src: url('Fonts/Avenir/Avenir-Medium.otf');
+}
