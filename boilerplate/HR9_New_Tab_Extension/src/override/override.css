@@ -1,5 +1,18 @@
-body {
-    background-image: "beer.jpg";
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-  }
+  /* Make the image fully responsive */
+	.carousel-inner img {
+		width: 100%;
+		height: 100%;
+	}
+
+	#title {
+		background-color: teal;	
+		
+	}
+	#title2 {
+		background-color: aqua;
+	}
+	#title3 {
+		background-color: aquamarine;
+	}
+	.col-sm-4 {
+	}
