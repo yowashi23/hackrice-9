@@ -1,6 +1,7 @@
 /* Make the image fully responsive */
 body {
-  background-image: url("night.png");
+  background-image: url("night2-01.png");
+  background-size: cover;
 }
 
 .card-front {
