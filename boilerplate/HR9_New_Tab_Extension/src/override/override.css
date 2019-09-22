@@ -4,6 +4,66 @@ body {
   background-size: cover;
 }
 
+#content {
+  width: 100%;
+  height: 100%;
+}
+
+#content1 {
+  width: 100%;
+  height: 100%;
+}
+
+#content2 {
+  width: 100%;
+  height: 100%;
+}
+
+#content3 {
+  width: 100%;
+  height: 100%;
+}
+
+#content4 {
+  width: 100%;
+  height: 100%;
+}
+
+#content5 {
+  width: 100%;
+  height: 100%;
+}
+
+#content6 {
+  width: 100%;
+  height: 100%;
+}
+
+#content7 {
+  width: 100%;
+  height: 100%;
+}
+
+#content8 {
+  width: 100%;
+  height: 100%;
+}
+
+#content9 {
+  width: 100%;
+  height: 100%;
+}
+
+#content10 {
+  width: 100%;
+  height: 100%;
+}
+
+#content11 {
+  width: 100%;
+  height: 100%;
+}
+
 .card-front {
   opacity: .8
 }
